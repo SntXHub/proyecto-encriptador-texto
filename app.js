@@ -1,9 +1,9 @@
-//Definición de variables y constantes generales
+//Definicion de variables y constantes generales
 const texto = document.querySelector(".texto");
 const textoNo = document.querySelector(".texto__no");
 
 /*
-Las reglas de encriptación son las siguientes:
+Las reglas de encriptacion son las siguientes:
 La letra "e" es convertida para "enter"
 La letra "i" es convertida para "imes"
 La letra "a" es convertida para "ai"
@@ -43,17 +43,6 @@ function encriptar(stringEncriptada){
         return stringEncriptada;
 }
 
-//funcion para no permitir el ingreso de caracteres especiales, mayúsculas, acentos ni tildes
-document.addEventListener("DOMContentLoaded", function () {
-const textArea = document.getElementById("ingresoTexto");
-    textArea.addEventListener("input", function (event) {
-        let value = event.target.value;
-        value = value.replace(/[^a-z0-9\s]/gi, '');
-        value = value.toLowerCase();
-        event.target.value = value;
-    });
-});
-
 function desencriptar(stringDesencriptada){
     let codigo = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"],];
     stringDesencriptada = stringDesencriptada.toLowerCase();
@@ -65,3 +54,21 @@ function desencriptar(stringDesencriptada){
         }
         return stringDesencriptada;
 }
+
+//funcion para no permitir el ingreso de caracteres especiales, mayusculas, acentos ni tildes
+document.addEventListener("DOMContentLoaded", function () {
+    const textArea = document.getElementById("ingresoTexto");
+    textArea.addEventListener("input", function (event) {
+        let value = event.target.value;
+
+        //normalizar el texto para eliminar acentos y tildes
+        value = value.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+        
+        //eliminar caracteres que no sean letras, numeros o espacios
+        value = value.replace(/[^a-z0-9\s]/gi, '');
+        
+        //convertir a minusculas
+        value = value.toLowerCase();
+        event.target.value = value;
+    });
+});
