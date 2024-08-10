@@ -21,15 +21,22 @@
 .parrafo__titulo{
     color: #FFFFFF;
     font-style: italic;
-    font-size: 36px;
+    font-size: 30px;
     display: contents;
+}
+
+body{
+    display: block;
+    margin-bottom: 3px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 main{
     display: flex;
-    margin-bottom: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-bottom: 3px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .texto{
@@ -43,7 +50,7 @@ main{
     border-width: 2px;
 }
 
-::placeholder{ text-align: center; line-height: 100px; color: hsl(0, 98%, 50%); }
+::placeholder{ text-align: center; line-height: 90px; color: hsl(0, 98%, 50%); }
     .texto:focus{
         outline: none;
     }
@@ -51,10 +58,9 @@ main{
 .texto__no{
     background: #000000;
     color: #FFFFFF;
-    margin-left: 98px;
+    margin-left: 90px;
     margin-top: 90px;
     text-align: left;
-    position: fixed;
     resize: none;
     border-color: #FFFFFF;
     border-width: 2px;
@@ -75,7 +81,7 @@ main{
     width: 187px;
     height: 67px;
     font-size: 18px;
-    margin-left: 20%;
+    margin-left: 5%;
 }
 
 .boton__desencriptar{
@@ -88,7 +94,7 @@ main{
     width: 187px;
     height: 67px;
     font-size: 18px;
-    margin-left: 40px;
+    margin-left: 70px;
 }
 
 .boton__copiar{
@@ -101,8 +107,8 @@ main{
     width: 187px;
     height: 67px;
     font-size: 18px;
-    margin-left: 350px;
-    margin-top: 375px;
+    margin-left: 190px;
+    margin-top: 15px;
 }
 
 .boton__encriptar:hover{
@@ -129,9 +135,9 @@ main{
     font-style: italic;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 5%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-top: 3%;
+    /*margin-left: 5%;
+    margin-right: 20%;*/
     height: 40%;
     font-size: small;
 }

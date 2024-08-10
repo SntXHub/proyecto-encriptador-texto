@@ -10,14 +10,14 @@
         <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
 
     </head>
-    <body>
+    <body class="body">
         <header>
             <img class="logo" src="assets/encript-logo.png" alt="Logo Encriptador de Texto"></img>
             <p class="parrafo__titulo">Encriptador de Texto</p>
         </header>
         <main>
             <section>
-                <textarea class="texto" id="ingresoTexto" cols="55" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+                <textarea class="texto" id="ingresoTexto" cols="40" rows="10" placeholder="Ingrese el texto aquí"></textarea>
                     <div class="Mostrar">
                         <h6 class="informacion"><img src="assets/adv.png"></img> Solo puede ingresar letras minúsculas, sin tildes, y sin caracteres especiales</h6>
                     </div>
@@ -27,7 +27,7 @@
                     </div>
             </section>
             <section>
-                <textarea readonly class="texto__no" id="textoEncriptado" cols="55" rows="10" placeholder="Ningún mensaje fue encontrado
+                <textarea readonly class="texto__no" id="textoEncriptado" cols="30" rows="10" placeholder="Ningún mensaje fue encontrado
 Ingresa el texto que desees encriptar o desencriptar"></textarea>
                     <div class="botones">
                         <button class="boton__copiar" type="button" onclick="botonCopiar()">Copiar Texto</button>
@@ -35,7 +35,8 @@ Ingresa el texto que desees encriptar o desencriptar"></textarea>
             </section>
         </main>
         <footer class="footer">
-                Desarrollado por Santiago Gabriel Cabrera para <a href="https://www.aluracursos.com/" target=_blank>| Alura Latam |</a> - <a href="https://www.oracle.com/lad/education/oracle-next-education/" target=_blank>| Oracle Next Education |</a> (2024)
+                <p>Desarrollado por Santiago Gabriel Cabrera (2024)</p>
+                <p><a href="https://www.aluracursos.com/" target=_blank>| Alura Latam |</a> - <a href="https://www.oracle.com/lad/education/oracle-next-education/" target=_blank>| Oracle Next Education |</a></p>
         </footer>
     <script src="app.js"></script>
     </body> 
