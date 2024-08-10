@@ -28,8 +28,8 @@
 body{
     display: block;
     margin-bottom: 3px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 main{
@@ -50,11 +50,11 @@ main{
     border-width: 2px;
 }
 
-::placeholder{ text-align: center; line-height: 90px; color: hsl(0, 98%, 50%); }
+::placeholder{ text-align: center; line-height: 30px; color: hsl(0, 98%, 50%); }
     .texto:focus{
         outline: none;
     }
-
+    
 .texto__no{
     background: #000000;
     color: #FFFFFF;
@@ -131,18 +131,23 @@ main{
     font-size: 12px;
 }
 
-.footer{
+footer{
     font-style: italic;
     text-align: center;
     color: #FFFFFF;
     margin-top: 3%;
-    /*margin-left: 5%;
-    margin-right: 20%;*/
-    height: 40%;
-    font-size: small;
+    height: 20%;
+    font-size: x-small;
 }
 
 a{
+    font-style: italic;
+    color: #FFFFFF;
+    font-size: x-small;
+    text-decoration: none;
+}
+
+.foot{
     font-style: italic;
     color: #FFFFFF;
     font-size: small;
