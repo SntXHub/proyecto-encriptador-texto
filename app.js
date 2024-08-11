@@ -1,17 +1,17 @@
-//Definicion de variables y constantes generales
+//definicion de variables y constantes generales
 const texto = document.querySelector(".texto");
 const textoNo = document.querySelector(".texto__no");
 
 /*
-Las reglas de encriptacion son las siguientes:
-La letra "e" es convertida para "enter"
-La letra "i" es convertida para "imes"
-La letra "a" es convertida para "ai"
-La letra "o" es convertida para "ober"
-La letra "u" es convertida para "ufat"
+las reglas de encriptacion son las siguientes:
+la letra "e" es convertida para "enter"
+la letra "i" es convertida para "imes"
+la letra "a" es convertida para "ai"
+la letra "o" es convertida para "ober"
+la letra "u" es convertida para "ufat"
 */
 
-//funciones para encriptar y desencriptar en el textarea de ingreso de texto
+//funciones para encriptar y desencriptar
 function botonEncriptar(){
     const textoEncriptado = encriptar(texto.value);
     textoNo.value = textoEncriptado;
@@ -55,7 +55,7 @@ function desencriptar(stringDesencriptada){
         return stringDesencriptada;
 }
 
-//funcion para no permitir el ingreso de caracteres especiales, mayusculas, acentos ni tildes
+//funcion para no permitir el ingreso de acentos y/o tildes, caracteres especiales, mayusculas
 document.addEventListener("DOMContentLoaded", function () {
     const textArea = document.getElementById("ingresoTexto");
     textArea.addEventListener("input", function (event) {
