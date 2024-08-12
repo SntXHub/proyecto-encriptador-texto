@@ -1,4 +1,4 @@
-/* version 1.0.1 final */
+/* version 1.0.2-rc.1 */
 
 * {
     background: url(../assets/backg.png);
@@ -94,21 +94,21 @@ main {
     border-radius: 24px;
     color: #FFFFFF;
     cursor: pointer;
-    width: 187px;
+    width: 160px;
     height: 67px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .boton__encriptar {
-    margin-left: 5%;
+    margin-left: 10px;
 }
 
 .boton__desencriptar {
-    margin-left: 70px;
+    margin-left: 40px;
 }
 
 .boton__copiar {
-    margin-left: 160px;
+    margin-left: 120px;
     margin-top: 15px;
 }
 

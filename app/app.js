@@ -1,4 +1,4 @@
-// version 1.0.1 final
+// version 1.0.2-rc.1
 
 //definicion de variables y constantes generales
 const texto = document.querySelector(".texto");
