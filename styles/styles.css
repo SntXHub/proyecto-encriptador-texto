@@ -1,4 +1,4 @@
-/* version 1.0.0 final */
+/* version 1.0.1 final */
 
 * {
     background: url(../assets/backg.png);
@@ -45,6 +45,13 @@ main {
     background: #000000;
     color: #FFFFFF;
     margin-top: 70px;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    font-variation-settings:
+    "wdth" 100;
     text-transform: lowercase;
     text-align: left;
     resize: none;
@@ -66,6 +73,13 @@ main {
     color: #FFFFFF;
     margin-top: 70px;
     margin-left: 2px;
+    font-family: "Inconsolata", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    font-variation-settings:
+    "wdth" 100;
     text-align: left;
     resize: none;
     border-color: #FFFFFF;

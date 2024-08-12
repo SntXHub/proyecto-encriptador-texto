@@ -1,6 +1,6 @@
 # Encriptador/Desencriptador de Texto
 
-[//]: <> (version 1.0.0 final)
+[//]: <> (version 1.0.1 final)
 
 ## Descripción
 
@@ -32,7 +32,7 @@ Las contribuciones son bienvenidas
 
 ## Versión
 
-Versión actual: 1.0.0
+Versión actual: 1.0.1
 
 ###
 ***Santiago Gabriel Cabrera (2024)***
