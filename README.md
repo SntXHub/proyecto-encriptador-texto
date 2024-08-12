@@ -1,5 +1,7 @@
 # Encriptador/Desencriptador de Texto
 
+[//]: <> (version 1.0.0 final)
+
 ## Descripción
 
 Este proyecto para Alura Latam / Oracle Next Education es una aplicación web que permite encriptar y desencriptar texto utilizando un conjunto de reglas definidas. La aplicación está diseñada para asegurar que el texto ingresado no contenga letras mayúsculas, caracteres especiales, acentos ni tildes.
