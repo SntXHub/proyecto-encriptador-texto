@@ -28,5 +28,9 @@ Este proyecto para Alura Latam / Oracle Next Education es una aplicación web qu
 Las contribuciones son bienvenidas  
 `https://github.com/SntXHub/proyecto-encriptador-texto.git`
 
+## Versión
+
+Versión actual: 1.0.0
+
 ###
 ***Santiago Gabriel Cabrera (2024)***

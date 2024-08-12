@@ -1,3 +1,5 @@
+// version 1.0 final
+
 //definicion de variables y constantes generales
 const texto = document.querySelector(".texto");
 const textoNo = document.querySelector(".texto__no");
