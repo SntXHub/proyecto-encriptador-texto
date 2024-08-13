@@ -1,8 +1,8 @@
 /* version 1.0.2-rc.1 */
 
 * {
-    background: url(../assets/backg.png);
-    background-size: 100px 100px;
+    background: hwb(0 1% 71%);
+    background-size: cover;
     font-family: "Bruno Ace SC", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -60,7 +60,7 @@ main {
 ::placeholder {
     text-align: center;
     line-height: 30px;
-    color: hsl(0, 98%, 50%);
+    color: #FFFFFF;
 }
 .texto:focus {
     outline: none;
@@ -113,8 +113,8 @@ main {
 }
 
 .boton__encriptar:hover, .boton__desencriptar:hover, .boton__copiar:hover {
-    background-color: #FFFFFF;
-    color: hsl(0, 98%, 50%);
+    background-color: #000000;
+    color: #FFFFFF;
 }
 
 .informacion {
@@ -132,13 +132,6 @@ footer {
     font-size: x-small;
 }
 
-a {
-    font-style: italic;
-    color: #FFFFFF;
-    font-size: x-small;
-    text-decoration: none;
-}
-
 .foot {
     font-style: italic;
     color: #FFFFFF;
@@ -146,8 +139,16 @@ a {
     text-decoration: none;
 }
 
+a {
+    font-style: italic;
+    color: #FFFFFF;
+    font-size: x-small;
+    text-decoration: none;
+}
+
 a:hover {
-    color: hsl(0, 98%, 50%);
+    color: #FFFFFF;
+    background: #000000;
     text-decoration: none;
 }
 
