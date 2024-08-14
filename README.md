@@ -1,10 +1,10 @@
-# Encriptador/Desencriptador de Texto
+[//]: <> version 1.0.3-rc.1
 
-[//]: <> (version 1.0.2-rc.1)
+<h1 align="center"> Encriptador/Desencriptador de Texto </h1>
 
 ## Descripción
 
-Este proyecto para Alura Latam / Oracle Next Education es una aplicación web que permite encriptar y desencriptar texto utilizando un conjunto de reglas definidas. La aplicación está diseñada para asegurar que el texto ingresado no contenga letras mayúsculas, caracteres especiales, acentos ni tildes.
+Este proyecto para **Alura Latam / Oracle Next Education** es una aplicación web que permite encriptar y desencriptar texto utilizando un conjunto de reglas definidas. La aplicación está diseñada para asegurar que el texto ingresado no contenga letras mayúsculas, caracteres especiales, acentos ni tildes, garantizando así la uniformidad del texto encriptado.
 
 ## Características
 
@@ -21,18 +21,22 @@ Este proyecto para Alura Latam / Oracle Next Education es una aplicación web qu
 
 ## Tecnologías Utilizadas
 
-- HTML5
-- CSS3
-- JavaScript ES6
+- **HTML5**
+- **CSS3**
+- **JavaScript ES6**
 
 ## Contribuciones
 
-Las contribuciones son bienvenidas  
-`https://github.com/SntXHub/proyecto-encriptador-texto.git`
+Las contribuciones son bienvenidas. Puedes hacer un fork de este repositorio y enviar un pull request con mejoras o correcciones.
+
+[Repositorio en GitHub](https://github.com/SntXHub/proyecto-encriptador-texto.git)
 
 ## Versión
 
-Versión actual: 1.0.2-rc.1
+Versión actual: 1.0.3-rc.1
 
-###
-***Santiago Gabriel Cabrera (2024)***
+- **Autor**: Santiago Gabriel Cabrera (2024)
+
+---
+
+Puedes visitar el proyecto en funcionamiento en el siguiente enlace: [Encriptador de Texto](https://sntxhub.github.io/proyecto-encriptador-texto/).

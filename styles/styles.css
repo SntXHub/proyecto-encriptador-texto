@@ -1,4 +1,4 @@
-/* version 1.0.2-rc.1 */
+/* version 1.0.3-rc.1 */
 
 * {
     background: hwb(0 1% 71%);
@@ -8,10 +8,6 @@
     font-style: normal;
     font-size: 18px;
     line-height: 150%;
-}
-
-.head {
-    background-color: #000000;
 }
 
 .logo {
