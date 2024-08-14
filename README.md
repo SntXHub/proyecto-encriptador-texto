@@ -1,5 +1,3 @@
-[//]: <> version 1.0.3-rc.1
-
 <h1 align="center"> Encriptador/Desencriptador de Texto </h1>
 
 ## Descripción
